@@ -38,7 +38,7 @@
                 "includeUserInfo": true,
                 "modified": 1586961783688,
                 "name": "Collar Recovery Survey Submission",
-                ;"url": "webhookaddress"
+                "url": "webhookaddress"
             },
             {
                 "active": true,
@@ -54,7 +54,7 @@
                 "includeUserInfo": true,
                 "modified": 1585689863754,
                 "name": "integromat-348249",
-                ;"url": "webhookaddress"
+                "url": "webhookaddress"
             }
         ]
     },
