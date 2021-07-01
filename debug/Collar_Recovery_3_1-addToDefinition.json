@@ -1,0 +1,705 @@
+{
+    "layers": [
+        {
+            "adminLayerInfo": {
+                "geometryField": {
+                    "name": "capture_location",
+                    "srid": 4326
+                }
+            },
+            "allowGeometryUpdates": true,
+            "capabilities": "Query,Editing,Create,Update,Delete",
+            "copyrightText": "",
+            "defaultVisibility": true,
+            "description": "",
+            "displayField": "objectid",
+            "drawingInfo": {
+                "labelingInfo": null,
+                "renderer": {
+                    "description": "Survey Data Locations",
+                    "label": "Collar Recovery 3.1",
+                    "symbol": {
+                        "angle": 0,
+                        "color": [
+                            255,
+                            0,
+                            0,
+                            255
+                        ],
+                        "outline": {
+                            "color": [
+                                255,
+                                255,
+                                0,
+                                255
+                            ],
+                            "width": 1
+                        },
+                        "size": 8,
+                        "style": "esriSMSCircle",
+                        "type": "esriSMS",
+                        "xoffset": 0,
+                        "yoffset": 0
+                    },
+                    "type": "simple"
+                },
+                "transparency": 0
+            },
+            "extent": {
+                "spatialReference": {
+                    "wkid": 4326
+                },
+                "type": "extent",
+                "xmax": 180,
+                "xmin": -180,
+                "ymax": 90,
+                "ymin": -90
+            },
+            "fields": [
+                {
+                    "alias": "ObjectID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "name": "objectid",
+                    "nullable": false,
+                    "type": "esriFieldTypeOID"
+                },
+                {
+                    "alias": "GlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "length": 38,
+                    "name": "globalid",
+                    "nullable": false,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGlobalID"
+                },
+                {
+                    "alias": "First Name",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "collector_firstname",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Last Name",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "collector_lastname",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Email Address",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "collector_email",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Data Collection Date/Time",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "date",
+                    "nullable": true,
+                    "type": "esriFieldTypeDate",
+                    "visible": true
+                },
+                {
+                    "alias": "Affiliation",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "UDWR",
+                                "name": "UDWR"
+                            },
+                            {
+                                "code": "BYU",
+                                "name": "BYU"
+                            },
+                            {
+                                "code": "USU",
+                                "name": "USU"
+                            },
+                            {
+                                "code": "Affiliation_Other",
+                                "name": "Other"
+                            }
+                        ],
+                        "name": "cvd_affiliation_org",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "affiliation_org",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "affiliation_other",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Was the collar recovered?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_collar_recovered",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "collar_recovered",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Species",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "Bison",
+                                "name": "Bison"
+                            },
+                            {
+                                "code": "Black_Bear",
+                                "name": "Black Bear"
+                            },
+                            {
+                                "code": "Bobcat",
+                                "name": "Bobcat"
+                            },
+                            {
+                                "code": "California_Bighorn",
+                                "name": "California Bighorn"
+                            },
+                            {
+                                "code": "Cougar",
+                                "name": "Cougar"
+                            },
+                            {
+                                "code": "Desert_Bighorn",
+                                "name": "Desert Bighorn"
+                            },
+                            {
+                                "code": "Elk",
+                                "name": "Elk"
+                            },
+                            {
+                                "code": "Moose",
+                                "name": "Moose"
+                            },
+                            {
+                                "code": "Mountain_Goat",
+                                "name": "Mountain Goat"
+                            },
+                            {
+                                "code": "Mule_Deer",
+                                "name": "Mule Deer"
+                            },
+                            {
+                                "code": "Pronghorn",
+                                "name": "Pronghorn"
+                            },
+                            {
+                                "code": "Rocky_Mountain_Bighorn",
+                                "name": "Rocky Mountain Bighorn"
+                            },
+                            {
+                                "code": "Turkey",
+                                "name": "Turkey"
+                            }
+                        ],
+                        "name": "cvd_species_type",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "species_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Why was the collar not recovered?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "terrain",
+                                "name": "Inaccessible terrain"
+                            },
+                            {
+                                "code": "no_signal",
+                                "name": "Collar quit transmitting"
+                            },
+                            {
+                                "code": "hunted",
+                                "name": "Animal likely harvested but collar was not returned"
+                            },
+                            {
+                                "code": "other_recover",
+                                "name": "Other"
+                            }
+                        ],
+                        "name": "cvd_not_recovered",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "not_recovered",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "why_notrecovered",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Did the animal die?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_animal_death",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "animal_death",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Why did the collar fall off?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "worn_damaged",
+                                "name": "Collar band worn or damaged"
+                            },
+                            {
+                                "code": "slipped_off",
+                                "name": "Animal slipped collar off"
+                            },
+                            {
+                                "code": "dropped_off",
+                                "name": "Drop-off mechanism activated"
+                            },
+                            {
+                                "code": "other_none",
+                                "name": "Other"
+                            }
+                        ],
+                        "name": "cvd_collar_fall",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "collar_fall",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "why_nocollar",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Manufacturer",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "ATS",
+                                "name": "ATS"
+                            },
+                            {
+                                "code": "Lotek",
+                                "name": "Lotek"
+                            },
+                            {
+                                "code": "Microwave",
+                                "name": "Microwave"
+                            }
+                        ],
+                        "name": "cvd_prev_manufacturer",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "prev_manufacturer",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Serial Number (6 digits, e.g., 041911)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 6,
+                    "name": "prev_collar_id",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Frequency (6 digits, e.g., 149.200)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 7,
+                    "name": "prev_freq",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Estimated Mortality Date",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "mort_date_estimated",
+                    "nullable": true,
+                    "type": "esriFieldTypeDate",
+                    "visible": true
+                },
+                {
+                    "alias": "Carcass Intact?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_carcass_intact",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "carcass_intact",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Mortality Cause",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "Accident",
+                                "name": "Accident"
+                            },
+                            {
+                                "code": "Predation",
+                                "name": "Predation"
+                            },
+                            {
+                                "code": "Malnutrition",
+                                "name": "Malnutrition"
+                            },
+                            {
+                                "code": "Disease",
+                                "name": "Disease"
+                            },
+                            {
+                                "code": "Hunting",
+                                "name": "Hunting"
+                            },
+                            {
+                                "code": "Removal",
+                                "name": "Removal"
+                            },
+                            {
+                                "code": "Poaching",
+                                "name": "Poaching"
+                            },
+                            {
+                                "code": "Unknown",
+                                "name": "Unknown"
+                            },
+                            {
+                                "code": "cause_other",
+                                "name": "Other"
+                            }
+                        ],
+                        "name": "cvd_mortality_cause",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "mortality_cause",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "cause_other",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Mortality Subcause",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "mortality_subcause",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "mortality_other",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Body Condition evaluated?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_body_condition",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "body_condition",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Marrow Condition",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "1",
+                                "name": "White color, hard/waxy texture (healthy)"
+                            },
+                            {
+                                "code": "2",
+                                "name": "Pink to red color, firm texture"
+                            },
+                            {
+                                "code": "3",
+                                "name": "Pink to red color, soft texture"
+                            },
+                            {
+                                "code": "4",
+                                "name": "Deep red color, gelatinous texture (poor condition)"
+                            },
+                            {
+                                "code": "5",
+                                "name": "Colorless, gelatinous texture (advanced malnutrition)"
+                            }
+                        ],
+                        "name": "cvd_marrow_condition",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "marrow_condition",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Rump Fat Depth (mm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "rump_fat_depth",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Tooth Removal Instructions",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "pulling_tooth",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Tooth Removed?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_tooth_removed",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "tooth_removed",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Sample #",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "sample_number",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Latitude",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_lat",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Longitude",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_long",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Notes",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "notes",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "magnet_reminder",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "magnet_reminder",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                }
+            ],
+            "geometryType": "esriGeometryPoint",
+            "globalIdField": "globalid",
+            "hasAttachments": true,
+            "hasM": false,
+            "hasStaticData": false,
+            "hasZ": false,
+            "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+            "id": 0,
+            "indexes": [
+                {
+                    "description": "GlobalID index",
+                    "fields": "globalid",
+                    "isAscending": false,
+                    "isUnique": true,
+                    "name": "GlobalIDIndex"
+                }
+            ],
+            "isDataVersioned": false,
+            "maxRecordCount": 1000,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Collar_Recovery_3_1",
+            "objectIdField": "objectid",
+            "relationships": [
+            ],
+            "supportedQueryFormats": "JSON",
+            "supportsAdvancedQueries": true,
+            "supportsRollbackOnFailureParameter": true,
+            "supportsStatistics": true,
+            "templates": [
+            ],
+            "type": "Feature Layer",
+            "typeIdField": "",
+            "types": [
+            ]
+        }
+    ]
+}

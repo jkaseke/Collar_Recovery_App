@@ -1,0 +1,30 @@
+{
+    "_ssl": false,
+    "allowGeometryUpdates": true,
+    "capabilities": "Query,Editing,Create,Update,Delete",
+    "copyrightText": "",
+    "currentVersion": 10.3,
+    "description": "",
+    "editorTrackingInfo": {
+        "allowOthersToDelete": true,
+        "allowOthersToUpdate": true,
+        "enableEditorTracking": false,
+        "enableOwnershipAccessControl": false
+    },
+    "hasStaticData": false,
+    "hasVersionedData": false,
+    "maxRecordCount": 1000,
+    "name": "service_e8416686404e47948ff19c2d757c721e",
+    "serviceDescription": "Collar Recovery 3.1",
+    "supportedQueryFormats": "JSON",
+    "supportsDisconnectedEditing": false,
+    "syncEnabled": false,
+    "tables": [
+    ],
+    "units": "esriMeters",
+    "xssPreventionInfo": {
+        "xssInputRule": "rejectInvalid",
+        "xssPreventionEnabled": true,
+        "xssPreventionRule": "InputOnly"
+    }
+}

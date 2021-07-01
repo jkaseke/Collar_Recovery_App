@@ -1,0 +1,58 @@
+{
+    "access": "shared",
+    "accessInformation": null,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "commentsEnabled": true,
+    "created": 1573767359000,
+    "culture": "en-us",
+    "description": "\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>The Collar Recovery app is used to report a GPS tracking collar that has been recovered from an animal that has died or had its collar fall off. The app can also be used to report collars that cannot be recovered due to circumstances such as inaccessible terrain. The app is linked to the Wildlife Tracker database, and will queue the collar being reported for Wildlife Tracker termination. It is essential that every collar collected be reported using this app. Please fill out as much of the information as possible and take pictures whenever you can.</p>\n<p style='-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'><br /></p>\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>If you are having technical issues with the app or have suggestions for improvements please contact:</p>\n<p style='-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'><br /></p>\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>Joy Kaseke</p>\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>Senior GIS Analyst</p>\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>Utah Division of Wildlife Resources</p>\n<p style=' margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'>jkaseke@utah.gov</p>",
+    "documentation": null,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "15177c5ae069480ab4e96bca593c28cc",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "itemControl": "admin",
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "licenseInfo": null,
+    "listed": false,
+    "modified": 1586974173000,
+    "name": "Collar_Recovery_3_1.zip",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 74,
+    "orgId": "ZzrwjTRez6FJiOq4",
+    "owner": "dwrutah",
+    "ownerFolder": "d62e906deda3477f92fa523ccbab01ec",
+    "properties": null,
+    "protected": false,
+    "proxyFilter": null,
+    "scoreCompleteness": 58,
+    "screenshots": [
+    ],
+    "size": 693910,
+    "snippet": "Utah DWR collar recovery app",
+    "spatialReference": null,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/Collar_Recovery_3_1.png",
+    "title": "Collar Recovery 3.1",
+    "type": "Form",
+    "typeKeywords": [
+        "Form",
+        "Survey123",
+        "Survey123 Connect",
+        "xForm"
+    ],
+    "url": null
+}

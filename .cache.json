@@ -1,0 +1,16 @@
+{
+    "mapSources": [
+        {
+            "copyrightText": "",
+            "description": "",
+            "itemUrl": "https://www.arcgis.com/home/item.html?id=400b83c519624128802d9986397587a9",
+            "mobile": true,
+            "name": "Collar Recovery 3.1",
+            "night": false,
+            "style": "CustomMap",
+            "thumbnailUrl": "https://www.arcgis.com/sharing/rest/content/items/400b83c519624128802d9986397587a9/info/thumbnail/ago_downloaded.png?token=Two9DFzZ7I273pAVLVcCMRbndXE6DY_1uN1RXks5FbLVZGK1F6sitZsTRPRzeuOObeRLTlqqSKbGvWKgFMsqPO2Inxe1ZL4Tw54P8u41bhB275xGp7imTiwoKzI3zKKv73iSilhNC6SsEKagtXcLhVRTbBEwmFjNTdYVCSODbqN0MTkmY3RDfHcnvMN_HbgQBTFCTzXQUX4S8U39di6O4sdMNYLQvNCBXIw5Di05o0BBEH4cD8UtTYt1_6iyS5mc",
+            "type": "Webmap",
+            "url": "https://www.arcgis.com/home/item.html?id=400b83c519624128802d9986397587a9"
+        }
+    ]
+}

@@ -1,0 +1,1326 @@
+{
+  "form": "<form autocomplete=\"off\" novalidate=\"novalidate\" class=\"or clearfix\" dir=\"ltr\" id=\"Collar_Recovery_3_1\">\n<!--This form was created by transforming a OpenRosa-flavored (X)Form using an XSL stylesheet created by Enketo LLC.--><section class=\"form-logo\"> </section><h3 dir=\"auto\" id=\"form-title\">Collar Recovery 3.1</h3><select id=\"form-languages\" style=\"display:none;\" data-default-lang=\"default\"><option value=\"default\" data-dir=\"ltr\">default</option> </select>\n  \n  \n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">First Name</span><span class=\"required\">*</span><input type=\"text\" name=\"/Collar_Recovery_3_1/collector_firstname\" data-required=\"true()\" data-type-xml=\"string\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Last Name</span><span class=\"required\">*</span><input type=\"text\" name=\"/Collar_Recovery_3_1/collector_lastname\" data-required=\"true()\" data-type-xml=\"string\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Email Address</span><span class=\"required\">*</span><input type=\"text\" name=\"/Collar_Recovery_3_1/collector_email\" data-required=\"true()\" data-type-xml=\"string\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Data Collection Date/Time</span><input type=\"datetime\" name=\"/Collar_Recovery_3_1/date\" data-type-xml=\"dateTime\"/></label>\n    <fieldset class=\"question simple-select \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Affiliation</span><span class=\"required\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/affiliation_org\" data-name=\"/Collar_Recovery_3_1/affiliation_org\" value=\"UDWR\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">UDWR</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/affiliation_org\" data-name=\"/Collar_Recovery_3_1/affiliation_org\" value=\"BYU\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">BYU</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/affiliation_org\" data-name=\"/Collar_Recovery_3_1/affiliation_org\" value=\"USU\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">USU</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/affiliation_org\" data-name=\"/Collar_Recovery_3_1/affiliation_org\" value=\"Affiliation_Other\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Other</span></label></div></fieldset><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></fieldset>\n    <label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Other</span><span class=\"required\">*</span><input type=\"text\" name=\"/Collar_Recovery_3_1/affiliation_other\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/affiliation_org  = 'Affiliation_Other'\" data-type-xml=\"string\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label>\n    <fieldset class=\"question simple-select \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Was the collar recovered?</span><span class=\"required\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_recovered\" data-name=\"/Collar_Recovery_3_1/collar_recovered\" value=\"yes\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Yes</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_recovered\" data-name=\"/Collar_Recovery_3_1/collar_recovered\" value=\"no\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">No</span></label></div></fieldset><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></fieldset>\n    <label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Species</span><select name=\"/Collar_Recovery_3_1/species_type\" data-name=\"/Collar_Recovery_3_1/species_type\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"Bison\">Bison</option><option value=\"Black_Bear\">Black Bear</option><option value=\"Bobcat\">Bobcat</option><option value=\"California_Bighorn\">California Bighorn</option><option value=\"Cougar\">Cougar</option><option value=\"Desert_Bighorn\">Desert Bighorn</option><option value=\"Elk\">Elk</option><option value=\"Moose\">Moose</option><option value=\"Mountain_Goat\">Mountain Goat</option><option value=\"Mule_Deer\">Mule Deer</option><option value=\"Pronghorn\">Pronghorn</option><option value=\"Rocky_Mountain_Bighorn\">Rocky Mountain Bighorn</option><option value=\"Turkey\">Turkey</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span></label>\n    <fieldset class=\"question simple-select or-branch pre-init \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Why was the collar not recovered?</span><span class=\"required\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/not_recovered\" data-name=\"/Collar_Recovery_3_1/not_recovered\" value=\"terrain\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Inaccessible terrain</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/not_recovered\" data-name=\"/Collar_Recovery_3_1/not_recovered\" value=\"no_signal\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Collar quit transmitting</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/not_recovered\" data-name=\"/Collar_Recovery_3_1/not_recovered\" value=\"hunted\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Animal likely harvested but collar was not returned</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/not_recovered\" data-name=\"/Collar_Recovery_3_1/not_recovered\" value=\"other_recover\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Other</span></label></div></fieldset><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></fieldset>\n    <label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Other</span><input type=\"text\" name=\"/Collar_Recovery_3_1/why_notrecovered\" data-relevant=\" /Collar_Recovery_3_1/not_recovered  = 'other_recover'\" data-type-xml=\"string\"/></label>\n    <fieldset class=\"question simple-select or-branch pre-init \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Did the animal die?</span><span class=\"required\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_death\" data-name=\"/Collar_Recovery_3_1/animal_death\" value=\"yes\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Yes</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_death\" data-name=\"/Collar_Recovery_3_1/animal_death\" value=\"no\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">No</span></label></div></fieldset><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></fieldset>\n    <fieldset class=\"question simple-select or-branch pre-init \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Why did the collar fall off?</span><span class=\"required\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_fall\" data-name=\"/Collar_Recovery_3_1/collar_fall\" value=\"worn_damaged\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_death  = 'no'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Collar band worn or damaged</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_fall\" data-name=\"/Collar_Recovery_3_1/collar_fall\" value=\"slipped_off\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_death  = 'no'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Animal slipped collar off</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_fall\" data-name=\"/Collar_Recovery_3_1/collar_fall\" value=\"dropped_off\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_death  = 'no'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Drop-off mechanism activated</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_fall\" data-name=\"/Collar_Recovery_3_1/collar_fall\" value=\"other_none\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_death  = 'no'\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Other</span></label></div></fieldset><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></fieldset>\n    <label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Other</span><input type=\"text\" name=\"/Collar_Recovery_3_1/why_nocollar\" data-relevant=\" /Collar_Recovery_3_1/collar_fall  = 'other_none'\" data-type-xml=\"string\"/></label>\n    <section class=\"or-group or-branch pre-init \" name=\"/Collar_Recovery_3_1/collar_info\" data-relevant=\" /Collar_Recovery_3_1/not_recovered  = 'terrain' or  /Collar_Recovery_3_1/not_recovered  = 'no_signal' or  /Collar_Recovery_3_1/not_recovered  = 'hunted' or  /Collar_Recovery_3_1/not_recovered  = 'other_recover' or  /Collar_Recovery_3_1/animal_death  = 'yes' or  /Collar_Recovery_3_1/collar_fall  = 'worn_damaged' or  /Collar_Recovery_3_1/collar_fall  = 'slipped_off' or  /Collar_Recovery_3_1/collar_fall  = 'dropped_off' or  /Collar_Recovery_3_1/collar_fall  = 'other_none'\"><h4><span lang=\"\" class=\"question-label active\">Collar Information</span></h4><label class=\"question or-branch pre-init non-select or-appearance-minimal \"><span lang=\"\" class=\"question-label active\">QR Code</span><input type=\"text\" name=\"/Collar_Recovery_3_1/collar_info/barcode_prev\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no'\" data-type-xml=\"barcode\" readonly=\"readonly\"/></label><fieldset class=\"question simple-select or-branch pre-init \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Manufacturer</span><span class=\"required\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_info/prev_manufacturer\" data-name=\"/Collar_Recovery_3_1/collar_info/prev_manufacturer\" value=\"ATS\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no' or  /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-calculate=\"if(substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,0,3)=&quot;ATS&quot;,&quot;ATS&quot;,&quot;&quot;)\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">ATS</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_info/prev_manufacturer\" data-name=\"/Collar_Recovery_3_1/collar_info/prev_manufacturer\" value=\"Lotek\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no' or  /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-calculate=\"if(substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,0,3)=&quot;ATS&quot;,&quot;ATS&quot;,&quot;&quot;)\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Lotek</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/collar_info/prev_manufacturer\" data-name=\"/Collar_Recovery_3_1/collar_info/prev_manufacturer\" value=\"Microwave\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no' or  /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-calculate=\"if(substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,0,3)=&quot;ATS&quot;,&quot;ATS&quot;,&quot;&quot;)\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Microwave</span></label></div></fieldset><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></fieldset><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Serial Number (6 digits, e.g., 041911)</span><span class=\"required\">*</span><input type=\"text\" name=\"/Collar_Recovery_3_1/collar_info/prev_collar_id\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no' or  /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-calculate=\"substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,12,18)\" data-type-xml=\"string\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Frequency (6 digits, e.g., 149.200)</span><span class=\"required\">*</span><input type=\"number\" name=\"/Collar_Recovery_3_1/collar_info/prev_freq\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no' or  /Collar_Recovery_3_1/collar_recovered  = 'no'\" data-calculate=\"substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,24,31)\" data-type-xml=\"decimal\" step=\"any\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Label Photo</span><input type=\"file\" name=\"/Collar_Recovery_3_1/collar_info/collar_photo\" data-relevant=\" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no'\" data-type-xml=\"binary\" accept=\"image/*\"/></label>\n            </section><!--end of group -->\n    <section class=\"or-group or-branch pre-init \" name=\"/Collar_Recovery_3_1/animal_info\" data-relevant=\" /Collar_Recovery_3_1/animal_death  = 'yes'\"><h4><span lang=\"\" class=\"question-label active\">Animal Mortality Information</span></h4><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Estimated Mortality Date</span><span class=\"required\">*</span><input type=\"date\" name=\"/Collar_Recovery_3_1/animal_info/mort_date_estimated\" data-required=\"true()\" data-type-xml=\"date\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><fieldset class=\"question simple-select \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Carcass Intact?</span><span class=\"required\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/carcass_intact\" data-name=\"/Collar_Recovery_3_1/animal_info/carcass_intact\" value=\"yes\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Yes</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/carcass_intact\" data-name=\"/Collar_Recovery_3_1/animal_info/carcass_intact\" value=\"no\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">No</span></label></div></fieldset><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></fieldset><label class=\"question or-appearance-autocomplete \"><span lang=\"\" class=\"question-label active\">Mortality Cause</span><span class=\"required\">*</span><input name=\"/Collar_Recovery_3_1/animal_info/mortality_cause\" data-name=\"/Collar_Recovery_3_1/animal_info/mortality_cause\" data-required=\"true()\" data-type-xml=\"select1\" type=\"text\" list=\"CollarRecovery31animalinfomortalitycause\"/><datalist id=\"CollarRecovery31animalinfomortalitycause\"><option value=\"\">...</option><option value=\"Accident\">Accident</option><option value=\"Predation\">Predation</option><option value=\"Malnutrition\">Malnutrition</option><option value=\"Disease\">Disease</option><option value=\"Hunting\">Hunting</option><option value=\"Removal\">Removal</option><option value=\"Poaching\">Poaching</option><option value=\"Unknown\">Unknown</option><option value=\"cause_other\">Other</option></datalist><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Other</span><span class=\"required\">*</span><input type=\"text\" name=\"/Collar_Recovery_3_1/animal_info/cause_other\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_info/mortality_cause  = 'cause_other'\" data-type-xml=\"string\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><label class=\"question or-appearance-autocomplete  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Mortality Subcause</span><span class=\"required\">*</span><input name=\"/Collar_Recovery_3_1/animal_info/mortality_subcause\" data-name=\"/Collar_Recovery_3_1/animal_info/mortality_subcause\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_info/mortality_cause  = 'Accident' or  /Collar_Recovery_3_1/animal_info/mortality_cause  = 'Predation' or  /Collar_Recovery_3_1/animal_info/mortality_cause  = 'Unknown'\" data-type-xml=\"select1\" type=\"text\" list=\"CollarRecovery31animalinfomortalitysubcause\"/><datalist id=\"CollarRecovery31animalinfomortalitysubcause\"><option class=\"itemset-template\" value=\"\" data-items-path=\"instance('mort_subcause')/root/item[cause_filter =  /Collar_Recovery_3_1/animal_info/mortality_cause ]\">...</option></datalist><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span class=\"itemset-labels\" data-value-ref=\"name\" data-label-type=\"itext\" data-label-ref=\"itextId\"><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-0\">Fence</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-1\">Train</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-2\">Vehicle</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-3\">Other</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-4\">Coyote</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-5\">Cougar</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-6\">Black Bear</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-7\">Bobcat</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-8\">Other</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-9\">Likely Predation</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-10\">Unlikely Predation</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-mort_subcause-11\">Unknown</span>\n            </span><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Other</span><span class=\"required\">*</span><input type=\"text\" name=\"/Collar_Recovery_3_1/animal_info/mortality_other\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_info/mortality_subcause  = 'accident_other' or  /Collar_Recovery_3_1/animal_info/mortality_subcause  = 'predation_other' or  /Collar_Recovery_3_1/animal_info/mortality_subcause  = 'unknown_other'\" data-type-xml=\"string\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><fieldset class=\"question or-appearance-horizontal-compact or-appearance-columns-pack \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Body Condition evaluated?</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/body_condition\" data-name=\"/Collar_Recovery_3_1/animal_info/body_condition\" value=\"yes\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Yes</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/body_condition\" data-name=\"/Collar_Recovery_3_1/animal_info/body_condition\" value=\"no\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">No</span></label></div></fieldset></fieldset><fieldset class=\"question simple-select or-branch pre-init \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Marrow Condition</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" data-name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" value=\"1\" data-relevant=\" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'\" data-type-xml=\"select1\"/><span lang=\"default\" class=\"option-label active\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/1:label\">White color, hard/waxy texture (healthy)</span><img lang=\"default\" class=\"active\" src=\"jr://images/Hard_White.PNG\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/1:label\" alt=\"image\"/></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" data-name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" value=\"2\" data-relevant=\" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'\" data-type-xml=\"select1\"/><span lang=\"default\" class=\"option-label active\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/2:label\">Pink to red color, firm texture</span><img lang=\"default\" class=\"active\" src=\"jr://images/Firm_PinkRed.PNG\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/2:label\" alt=\"image\"/></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" data-name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" value=\"3\" data-relevant=\" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'\" data-type-xml=\"select1\"/><span lang=\"default\" class=\"option-label active\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/3:label\">Pink to red color, soft texture</span><img lang=\"default\" class=\"active\" src=\"jr://images/Soft_PinkRed.PNG\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/3:label\" alt=\"image\"/></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" data-name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" value=\"4\" data-relevant=\" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'\" data-type-xml=\"select1\"/><span lang=\"default\" class=\"option-label active\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/4:label\">Deep red color, gelatinous texture (poor condition)</span><img lang=\"default\" class=\"active\" src=\"jr://images/Gelatinous_DarkRed.PNG\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/4:label\" alt=\"image\"/></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" data-name=\"/Collar_Recovery_3_1/animal_info/marrow_condition\" value=\"5\" data-relevant=\" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'\" data-type-xml=\"select1\"/><span lang=\"default\" class=\"option-label active\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/5:label\">Colorless, gelatinous texture (advanced malnutrition)</span><img lang=\"default\" class=\"active\" src=\"jr://images/Gelatinous_Clear.PNG\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/marrow_condition/5:label\" alt=\"image\"/></label></div></fieldset></fieldset><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Marrow Photo</span><span class=\"required\">*</span><input type=\"file\" name=\"/Collar_Recovery_3_1/animal_info/marrow_photo\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'\" data-type-xml=\"binary\" accept=\"image/*\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Rump Fat Depth (mm)</span><input type=\"number\" name=\"/Collar_Recovery_3_1/animal_info/rump_fat_depth\" data-relevant=\" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'\" data-type-xml=\"decimal\" step=\"any\"/></label><label class=\"question non-select \"><span lang=\"default\" class=\"question-label active\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/pulling_tooth:label\">Tooth Removal Instructions</span><img lang=\"default\" class=\"active\" src=\"jr://images/Tooth_Sample_Instructions.PNG\" data-itext-id=\"/Collar_Recovery_3_1/animal_info/pulling_tooth:label\" alt=\"image\"/><input type=\"text\" name=\"/Collar_Recovery_3_1/animal_info/pulling_tooth\" data-type-xml=\"string\" readonly=\"readonly\"/></label><fieldset class=\"question simple-select \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Tooth Removed?</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/tooth_removed\" data-name=\"/Collar_Recovery_3_1/animal_info/tooth_removed\" value=\"yes\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">Yes</span></label><label class=\"\"><input type=\"radio\" name=\"/Collar_Recovery_3_1/animal_info/tooth_removed\" data-name=\"/Collar_Recovery_3_1/animal_info/tooth_removed\" value=\"no\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">No</span></label></div></fieldset></fieldset><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Sample #</span><span class=\"required\">*</span><input type=\"text\" name=\"/Collar_Recovery_3_1/animal_info/sample_number\" data-required=\"true()\" data-relevant=\" /Collar_Recovery_3_1/animal_info/tooth_removed  = 'yes'\" data-calculate=\" /Collar_Recovery_3_1/collar_info/prev_collar_id \" data-type-xml=\"string\"/><span class=\"or-required-msg active\" lang=\"\" data-i18n=\"constraint.required\">This field is required</span></label><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Animal Photos</span><input type=\"file\" name=\"/Collar_Recovery_3_1/animal_info/animal_photo1\" data-type-xml=\"binary\" accept=\"image/*\"/></label><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">add.</span><input type=\"file\" name=\"/Collar_Recovery_3_1/animal_info/animal_photo2\" data-type-xml=\"binary\" accept=\"image/*\"/></label><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">add.</span><input type=\"file\" name=\"/Collar_Recovery_3_1/animal_info/animal_photo3\" data-type-xml=\"binary\" accept=\"image/*\"/></label><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">add.</span><input type=\"file\" name=\"/Collar_Recovery_3_1/animal_info/animal_photo4\" data-type-xml=\"binary\" accept=\"image/*\"/></label><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Vegetation Photo</span><input type=\"file\" name=\"/Collar_Recovery_3_1/animal_info/veg_photo\" data-type-xml=\"binary\" accept=\"image/*\"/></label>\n            </section><!--end of group -->\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Location</span><input type=\"text\" name=\"/Collar_Recovery_3_1/capture_location\" data-type-xml=\"geopoint\"/></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Latitude</span><input type=\"number\" name=\"/Collar_Recovery_3_1/capture_lat\" data-calculate=\"pulldata('@geopoint',  /Collar_Recovery_3_1/capture_location , 'y')\" data-type-xml=\"decimal\" step=\"any\"/></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Longitude</span><input type=\"number\" name=\"/Collar_Recovery_3_1/capture_long\" data-calculate=\"pulldata('@geopoint',  /Collar_Recovery_3_1/capture_location , 'x')\" data-type-xml=\"decimal\" step=\"any\"/></label>\n    <section class=\"or-group \" name=\"/Collar_Recovery_3_1/notes_general\"><h4><span lang=\"\" class=\"question-label active\">Notes</span></h4><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Notes</span><input type=\"text\" name=\"/Collar_Recovery_3_1/notes_general/notes\" data-type-xml=\"string\"/></label>\n            </section><!--end of group -->\n    <label class=\"question non-select \"><span lang=\"default\" class=\"option-label active\">\n                 </span><img lang=\"default\" class=\"active\" src=\"jr://images/Attach_Magnet.PNG\" data-itext-id=\"/Collar_Recovery_3_1/magnet_reminder:label\" alt=\"image\"/><input type=\"text\" name=\"/Collar_Recovery_3_1/magnet_reminder\" data-type-xml=\"string\" readonly=\"readonly\"/></label>\n  \n<fieldset id=\"or-calculated-items\" style=\"display:none;\"><label class=\"calculation non-select \"><input type=\"hidden\" name=\"/Collar_Recovery_3_1/meta/instanceID\" data-calculate=\"concat('uuid:', uuid())\" data-type-xml=\"string\"/></label></fieldset></form>",
+  "languageMap": {},
+  "model": "<model><instance>\n        <Collar_Recovery_3_1 xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\" id=\"Collar_Recovery_3_1\">\n          <collector_firstname/>\n          <collector_lastname/>\n          <collector_email/>\n          <date>now()</date>\n          <affiliation_org/>\n          <affiliation_other/>\n          <collar_recovered/>\n          <species_type/>\n          <not_recovered/>\n          <why_notrecovered/>\n          <animal_death/>\n          <collar_fall/>\n          <why_nocollar/>\n          <collar_info>\n            <barcode_prev/>\n            <prev_manufacturer/>\n            <prev_collar_id/>\n            <prev_freq/>\n            <collar_photo/>\n          </collar_info>\n          <animal_info>\n            <mort_date_estimated/>\n            <carcass_intact/>\n            <mortality_cause/>\n            <cause_other/>\n            <mortality_subcause/>\n            <mortality_other/>\n            <body_condition/>\n            <marrow_condition/>\n            <marrow_photo/>\n            <rump_fat_depth/>\n            <pulling_tooth/>\n            <tooth_removed/>\n            <sample_number/>\n            <animal_photo1/>\n            <animal_photo2/>\n            <animal_photo3/>\n            <animal_photo4/>\n            <veg_photo/>\n          </animal_info>\n          <capture_location/>\n          <capture_lat/>\n          <capture_long/>\n          <notes_general>\n            <notes/>\n          </notes_general>\n          <magnet_reminder/>\n          <meta>\n            <instanceID/>\n          </meta>\n        </Collar_Recovery_3_1>\n      </instance><instance id=\"@geopoint\" src=\"jr://file-csv/@geopoint.csv\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <name>_</name>\n            <label>_</label>\n          </item>\n        </root>\n      </instance><instance id=\"rating\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-rating-0</itextId>\n            <name>1</name>\n          </item>\n          <item>\n            <itextId>static_instance-rating-1</itextId>\n            <name>2</name>\n          </item>\n          <item>\n            <itextId>static_instance-rating-2</itextId>\n            <name>3</name>\n          </item>\n          <item>\n            <itextId>static_instance-rating-3</itextId>\n            <name>4</name>\n          </item>\n          <item>\n            <itextId>static_instance-rating-4</itextId>\n            <name>5</name>\n          </item>\n        </root>\n      </instance><instance id=\"no_collar\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-no_collar-0</itextId>\n            <name>worn_damaged</name>\n          </item>\n          <item>\n            <itextId>static_instance-no_collar-1</itextId>\n            <name>slipped_off</name>\n          </item>\n          <item>\n            <itextId>static_instance-no_collar-2</itextId>\n            <name>dropped_off</name>\n          </item>\n          <item>\n            <itextId>static_instance-no_collar-3</itextId>\n            <name>other_none</name>\n          </item>\n        </root>\n      </instance><instance id=\"no_recovery\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-no_recovery-0</itextId>\n            <name>terrain</name>\n          </item>\n          <item>\n            <itextId>static_instance-no_recovery-1</itextId>\n            <name>no_signal</name>\n          </item>\n          <item>\n            <itextId>static_instance-no_recovery-2</itextId>\n            <name>hunted</name>\n          </item>\n          <item>\n            <itextId>static_instance-no_recovery-3</itextId>\n            <name>other_recover</name>\n          </item>\n        </root>\n      </instance><instance id=\"mort_subcause\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-mort_subcause-0</itextId>\n            <name>Fence</name>\n            <cause_filter>Accident</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-1</itextId>\n            <name>Train</name>\n            <cause_filter>Accident</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-2</itextId>\n            <name>Vehicle</name>\n            <cause_filter>Accident</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-3</itextId>\n            <name>accident_other</name>\n            <cause_filter>Accident</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-4</itextId>\n            <name>Coyote</name>\n            <cause_filter>Predation</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-5</itextId>\n            <name>Cougar</name>\n            <cause_filter>Predation</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-6</itextId>\n            <name>Black Bear</name>\n            <cause_filter>Predation</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-7</itextId>\n            <name>Bobcat</name>\n            <cause_filter>Predation</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-8</itextId>\n            <name>predation_other</name>\n            <cause_filter>Predation</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-9</itextId>\n            <name>likely</name>\n            <cause_filter>Unknown</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-10</itextId>\n            <name>unlikely</name>\n            <cause_filter>Unknown</cause_filter>\n          </item>\n          <item>\n            <itextId>static_instance-mort_subcause-11</itextId>\n            <name>unknown_other</name>\n            <cause_filter>Unknown</cause_filter>\n          </item>\n        </root>\n      </instance><instance id=\"type\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-type-0</itextId>\n            <name>Mortality</name>\n          </item>\n          <item>\n            <itextId>static_instance-type-1</itextId>\n            <name>Collar Only</name>\n          </item>\n        </root>\n      </instance><instance id=\"affiliation\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-affiliation-0</itextId>\n            <name>UDWR</name>\n          </item>\n          <item>\n            <itextId>static_instance-affiliation-1</itextId>\n            <name>BYU</name>\n          </item>\n          <item>\n            <itextId>static_instance-affiliation-2</itextId>\n            <name>USU</name>\n          </item>\n          <item>\n            <itextId>static_instance-affiliation-3</itextId>\n            <name>Affiliation_Other</name>\n          </item>\n        </root>\n      </instance><instance id=\"marrow_condition\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-marrow_condition-0</itextId>\n            <name>1</name>\n          </item>\n          <item>\n            <itextId>static_instance-marrow_condition-1</itextId>\n            <name>2</name>\n          </item>\n          <item>\n            <itextId>static_instance-marrow_condition-2</itextId>\n            <name>3</name>\n          </item>\n          <item>\n            <itextId>static_instance-marrow_condition-3</itextId>\n            <name>4</name>\n          </item>\n          <item>\n            <itextId>static_instance-marrow_condition-4</itextId>\n            <name>5</name>\n          </item>\n        </root>\n      </instance><instance id=\"yes_no\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-yes_no-0</itextId>\n            <name>yes</name>\n          </item>\n          <item>\n            <itextId>static_instance-yes_no-1</itextId>\n            <name>no</name>\n          </item>\n        </root>\n      </instance><instance id=\"mort_cause\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-mort_cause-0</itextId>\n            <name>Accident</name>\n          </item>\n          <item>\n            <itextId>static_instance-mort_cause-1</itextId>\n            <name>Predation</name>\n          </item>\n          <item>\n            <itextId>static_instance-mort_cause-2</itextId>\n            <name>Malnutrition</name>\n          </item>\n          <item>\n            <itextId>static_instance-mort_cause-3</itextId>\n            <name>Disease</name>\n          </item>\n          <item>\n            <itextId>static_instance-mort_cause-4</itextId>\n            <name>Hunting</name>\n          </item>\n          <item>\n            <itextId>static_instance-mort_cause-5</itextId>\n            <name>Removal</name>\n          </item>\n          <item>\n            <itextId>static_instance-mort_cause-6</itextId>\n            <name>Poaching</name>\n          </item>\n          <item>\n            <itextId>static_instance-mort_cause-7</itextId>\n            <name>Unknown</name>\n          </item>\n          <item>\n            <itextId>static_instance-mort_cause-8</itextId>\n            <name>cause_other</name>\n          </item>\n        </root>\n      </instance><instance id=\"species\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-species-0</itextId>\n            <name>Bison</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-1</itextId>\n            <name>Black_Bear</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-2</itextId>\n            <name>Bobcat</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-3</itextId>\n            <name>California_Bighorn</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-4</itextId>\n            <name>Cougar</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-5</itextId>\n            <name>Desert_Bighorn</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-6</itextId>\n            <name>Elk</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-7</itextId>\n            <name>Moose</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-8</itextId>\n            <name>Mountain_Goat</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-9</itextId>\n            <name>Mule_Deer</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-10</itextId>\n            <name>Pronghorn</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-11</itextId>\n            <name>Rocky_Mountain_Bighorn</name>\n          </item>\n          <item>\n            <itextId>static_instance-species-12</itextId>\n            <name>Turkey</name>\n          </item>\n        </root>\n      </instance><instance id=\"tooth_pull\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-tooth_pull-0</itextId>\n            <name>tooth_pulling</name>\n          </item>\n        </root>\n      </instance><instance id=\"manufacturer\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-manufacturer-0</itextId>\n            <name>ATS</name>\n          </item>\n          <item>\n            <itextId>static_instance-manufacturer-1</itextId>\n            <name>Lotek</name>\n          </item>\n          <item>\n            <itextId>static_instance-manufacturer-2</itextId>\n            <name>Microwave</name>\n          </item>\n        </root>\n      </instance></model>",
+  "success": true,
+  "surveyFormJson": {
+    "footer": {
+      "content": "",
+      "isVisible": true
+    },
+    "header": {
+      "content": "%3Cp%20title%3D'Collar%20Recovery%203.1'%3ECollar%20Recovery%203.1%3C%2Fp%3E",
+      "isVisible": true
+    },
+    "layerName": "Collar_Recovery_3_1",
+    "portalUrl": "https://www.arcgis.com",
+    "questions": [
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "collector_firstname",
+        "id": "/Collar_Recovery_3_1/collector_firstname",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "First Name",
+        "name": "collector_firstname",
+        "position": 0,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "collector_lastname",
+        "id": "/Collar_Recovery_3_1/collector_lastname",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Last Name",
+        "name": "collector_lastname",
+        "position": 1,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "collector_email",
+        "id": "/Collar_Recovery_3_1/collector_email",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Email Address",
+        "name": "collector_email",
+        "position": 2,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "now()",
+        "fieldName": "date",
+        "id": "/Collar_Recovery_3_1/date",
+        "isReadOnly": false,
+        "isRequired": false,
+        "label": "Data Collection Date/Time",
+        "name": "date",
+        "position": 3,
+        "type": "esriQuestionTypeDateTime",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "appearance": {
+          "layout": "vertical"
+        },
+        "choices": {
+          "items": [
+            {
+              "label": "UDWR",
+              "position": 0,
+              "value": "UDWR"
+            },
+            {
+              "label": "BYU",
+              "position": 1,
+              "value": "BYU"
+            },
+            {
+              "label": "USU",
+              "position": 2,
+              "value": "USU"
+            },
+            {
+              "label": "Other",
+              "position": 3,
+              "value": "Affiliation_Other"
+            }
+          ],
+          "other": {
+            "isEnabled": false
+          }
+        },
+        "choicesOrder": {
+          "type": "default"
+        },
+        "fieldName": "affiliation_org",
+        "id": "/Collar_Recovery_3_1/affiliation_org",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Affiliation",
+        "name": "affiliation_org",
+        "position": 4,
+        "type": "esriQuestionTypeSingleChoice"
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "affiliation_other",
+        "id": "/Collar_Recovery_3_1/affiliation_other",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Other",
+        "name": "affiliation_other",
+        "position": 5,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "appearance": {
+          "layout": "vertical"
+        },
+        "choices": {
+          "items": [
+            {
+              "label": "Yes",
+              "position": 0,
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "position": 1,
+              "value": "no"
+            }
+          ],
+          "other": {
+            "isEnabled": false
+          }
+        },
+        "choicesOrder": {
+          "type": "default"
+        },
+        "fieldName": "collar_recovered",
+        "id": "/Collar_Recovery_3_1/collar_recovered",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Was the collar recovered?",
+        "name": "collar_recovered",
+        "position": 6,
+        "type": "esriQuestionTypeSingleChoice"
+      },
+      {
+        "appearance": {
+          "layout": "minimal"
+        },
+        "choices": {
+          "items": [
+            {
+              "label": "Bison",
+              "position": 0,
+              "value": "Bison"
+            },
+            {
+              "label": "Black Bear",
+              "position": 1,
+              "value": "Black_Bear"
+            },
+            {
+              "label": "Bobcat",
+              "position": 2,
+              "value": "Bobcat"
+            },
+            {
+              "label": "California Bighorn",
+              "position": 3,
+              "value": "California_Bighorn"
+            },
+            {
+              "label": "Cougar",
+              "position": 4,
+              "value": "Cougar"
+            },
+            {
+              "label": "Desert Bighorn",
+              "position": 5,
+              "value": "Desert_Bighorn"
+            },
+            {
+              "label": "Elk",
+              "position": 6,
+              "value": "Elk"
+            },
+            {
+              "label": "Moose",
+              "position": 7,
+              "value": "Moose"
+            },
+            {
+              "label": "Mountain Goat",
+              "position": 8,
+              "value": "Mountain_Goat"
+            },
+            {
+              "label": "Mule Deer",
+              "position": 9,
+              "value": "Mule_Deer"
+            },
+            {
+              "label": "Pronghorn",
+              "position": 10,
+              "value": "Pronghorn"
+            },
+            {
+              "label": "Rocky Mountain Bighorn",
+              "position": 11,
+              "value": "Rocky_Mountain_Bighorn"
+            },
+            {
+              "label": "Turkey",
+              "position": 12,
+              "value": "Turkey"
+            }
+          ],
+          "other": {
+            "isEnabled": false
+          }
+        },
+        "choicesOrder": {
+          "type": "default"
+        },
+        "fieldName": "species_type",
+        "id": "/Collar_Recovery_3_1/species_type",
+        "isReadOnly": false,
+        "isRequired": false,
+        "label": "Species",
+        "name": "species_type",
+        "position": 7,
+        "type": "esriQuestionTypeSingleChoice"
+      },
+      {
+        "appearance": {
+          "layout": "vertical"
+        },
+        "choices": {
+          "items": [
+            {
+              "label": "Inaccessible terrain",
+              "position": 0,
+              "value": "terrain"
+            },
+            {
+              "label": "Collar quit transmitting",
+              "position": 1,
+              "value": "no_signal"
+            },
+            {
+              "label": "Animal likely harvested but collar was not returned",
+              "position": 2,
+              "value": "hunted"
+            },
+            {
+              "label": "Other",
+              "position": 3,
+              "value": "other_recover"
+            }
+          ],
+          "other": {
+            "isEnabled": false
+          }
+        },
+        "choicesOrder": {
+          "type": "default"
+        },
+        "fieldName": "not_recovered",
+        "id": "/Collar_Recovery_3_1/not_recovered",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Why was the collar not recovered?",
+        "name": "not_recovered",
+        "position": 8,
+        "type": "esriQuestionTypeSingleChoice"
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "why_notrecovered",
+        "id": "/Collar_Recovery_3_1/why_notrecovered",
+        "isReadOnly": false,
+        "isRequired": false,
+        "label": "Other",
+        "name": "why_notrecovered",
+        "position": 9,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "appearance": {
+          "layout": "vertical"
+        },
+        "choices": {
+          "items": [
+            {
+              "label": "Yes",
+              "position": 0,
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "position": 1,
+              "value": "no"
+            }
+          ],
+          "other": {
+            "isEnabled": false
+          }
+        },
+        "choicesOrder": {
+          "type": "default"
+        },
+        "fieldName": "animal_death",
+        "id": "/Collar_Recovery_3_1/animal_death",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Did the animal die?",
+        "name": "animal_death",
+        "position": 10,
+        "type": "esriQuestionTypeSingleChoice"
+      },
+      {
+        "appearance": {
+          "layout": "vertical"
+        },
+        "choices": {
+          "items": [
+            {
+              "label": "Collar band worn or damaged",
+              "position": 0,
+              "value": "worn_damaged"
+            },
+            {
+              "label": "Animal slipped collar off",
+              "position": 1,
+              "value": "slipped_off"
+            },
+            {
+              "label": "Drop-off mechanism activated",
+              "position": 2,
+              "value": "dropped_off"
+            },
+            {
+              "label": "Other",
+              "position": 3,
+              "value": "other_none"
+            }
+          ],
+          "other": {
+            "isEnabled": false
+          }
+        },
+        "choicesOrder": {
+          "type": "default"
+        },
+        "fieldName": "collar_fall",
+        "id": "/Collar_Recovery_3_1/collar_fall",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Why did the collar fall off?",
+        "name": "collar_fall",
+        "position": 11,
+        "type": "esriQuestionTypeSingleChoice"
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "why_nocollar",
+        "id": "/Collar_Recovery_3_1/why_nocollar",
+        "isReadOnly": false,
+        "isRequired": false,
+        "label": "Other",
+        "name": "why_nocollar",
+        "position": 12,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "appearance": {
+          "layout": "expanded"
+        },
+        "id": "/Collar_Recovery_3_1/collar_info",
+        "label": "Collar Information",
+        "name": "collar_info",
+        "position": 13,
+        "questions": [
+          {
+            "calculation": "",
+            "fieldType": "null",
+            "id": "/Collar_Recovery_3_1/collar_info/barcode_prev",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "QR Code",
+            "name": "barcode_prev",
+            "position": 14,
+            "type": "questionTypeBarcode"
+          },
+          {
+            "appearance": {
+              "layout": "vertical"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "ATS",
+                  "position": 0,
+                  "value": "ATS"
+                },
+                {
+                  "label": "Lotek",
+                  "position": 1,
+                  "value": "Lotek"
+                },
+                {
+                  "label": "Microwave",
+                  "position": 2,
+                  "value": "Microwave"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "prev_manufacturer",
+            "id": "/Collar_Recovery_3_1/collar_info/prev_manufacturer",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Manufacturer",
+            "name": "prev_manufacturer",
+            "position": 15,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "calculation": "substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,12,18)",
+            "defaultValue": "",
+            "fieldLength": "6",
+            "fieldName": "prev_collar_id",
+            "id": "/Collar_Recovery_3_1/collar_info/prev_collar_id",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Serial Number (6 digits, e.g., 041911)",
+            "name": "prev_collar_id",
+            "position": 16,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,24,31)",
+            "defaultValue": "",
+            "fieldLength": "7",
+            "fieldName": "prev_freq",
+            "id": "/Collar_Recovery_3_1/collar_info/prev_freq",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Frequency (6 digits, e.g., 149.200)",
+            "name": "prev_freq",
+            "position": 17,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "id": "/Collar_Recovery_3_1/collar_info/collar_photo",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Label Photo",
+            "name": "collar_photo",
+            "position": 18,
+            "type": "esriQuestionTypeImage",
+            "validation": {
+              "allowFileType": {
+                "exts": [
+                  "bmp",
+                  "gif",
+                  "jp2",
+                  "jpg",
+                  "jpeg",
+                  "jpe",
+                  "png",
+                  "psd",
+                  "sid",
+                  "tif",
+                  "tiff"
+                ],
+                "type": "image"
+              },
+              "inputCount": {
+                "isEnabled": true,
+                "max": 1,
+                "min": 1
+              }
+            }
+          }
+        ],
+        "type": "esriQuestionTypeGroup"
+      },
+      {
+        "appearance": {
+          "layout": "expanded"
+        },
+        "id": "/Collar_Recovery_3_1/animal_info",
+        "label": "Animal Mortality Information",
+        "name": "animal_info",
+        "position": 19,
+        "questions": [
+          {
+            "appearance": {
+              "layout": "day-month-year"
+            },
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "mort_date_estimated",
+            "id": "/Collar_Recovery_3_1/animal_info/mort_date_estimated",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Estimated Mortality Date",
+            "name": "mort_date_estimated",
+            "position": 20,
+            "type": "esriQuestionTypeDate",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "vertical"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Yes",
+                  "position": 0,
+                  "value": "yes"
+                },
+                {
+                  "label": "No",
+                  "position": 1,
+                  "value": "no"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "carcass_intact",
+            "id": "/Collar_Recovery_3_1/animal_info/carcass_intact",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Carcass Intact?",
+            "name": "carcass_intact",
+            "position": 21,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "appearance": {
+              "layout": "autocomplete"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Accident",
+                  "position": 0,
+                  "value": "Accident"
+                },
+                {
+                  "label": "Predation",
+                  "position": 1,
+                  "value": "Predation"
+                },
+                {
+                  "label": "Malnutrition",
+                  "position": 2,
+                  "value": "Malnutrition"
+                },
+                {
+                  "label": "Disease",
+                  "position": 3,
+                  "value": "Disease"
+                },
+                {
+                  "label": "Hunting",
+                  "position": 4,
+                  "value": "Hunting"
+                },
+                {
+                  "label": "Removal",
+                  "position": 5,
+                  "value": "Removal"
+                },
+                {
+                  "label": "Poaching",
+                  "position": 6,
+                  "value": "Poaching"
+                },
+                {
+                  "label": "Unknown",
+                  "position": 7,
+                  "value": "Unknown"
+                },
+                {
+                  "label": "Other",
+                  "position": 8,
+                  "value": "cause_other"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "mortality_cause",
+            "id": "/Collar_Recovery_3_1/animal_info/mortality_cause",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Mortality Cause",
+            "name": "mortality_cause",
+            "position": 22,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "cause_other",
+            "id": "/Collar_Recovery_3_1/animal_info/cause_other",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Other",
+            "name": "cause_other",
+            "position": 23,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "autocomplete"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Fence",
+                  "position": 0,
+                  "value": "Fence"
+                },
+                {
+                  "label": "Train",
+                  "position": 1,
+                  "value": "Train"
+                },
+                {
+                  "label": "Vehicle",
+                  "position": 2,
+                  "value": "Vehicle"
+                },
+                {
+                  "label": "Other",
+                  "position": 3,
+                  "value": "accident_other"
+                },
+                {
+                  "label": "Coyote",
+                  "position": 4,
+                  "value": "Coyote"
+                },
+                {
+                  "label": "Cougar",
+                  "position": 5,
+                  "value": "Cougar"
+                },
+                {
+                  "label": "Black Bear",
+                  "position": 6,
+                  "value": "Black Bear"
+                },
+                {
+                  "label": "Bobcat",
+                  "position": 7,
+                  "value": "Bobcat"
+                },
+                {
+                  "label": "Other",
+                  "position": 8,
+                  "value": "predation_other"
+                },
+                {
+                  "label": "Likely Predation",
+                  "position": 9,
+                  "value": "likely"
+                },
+                {
+                  "label": "Unlikely Predation",
+                  "position": 10,
+                  "value": "unlikely"
+                },
+                {
+                  "label": "Unknown",
+                  "position": 11,
+                  "value": "unknown_other"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "mortality_subcause",
+            "id": "/Collar_Recovery_3_1/animal_info/mortality_subcause",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Mortality Subcause",
+            "name": "mortality_subcause",
+            "position": 24,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "mortality_other",
+            "id": "/Collar_Recovery_3_1/animal_info/mortality_other",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Other",
+            "name": "mortality_other",
+            "position": 25,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "horizontal-compact"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Yes",
+                  "position": 0,
+                  "value": "yes"
+                },
+                {
+                  "label": "No",
+                  "position": 1,
+                  "value": "no"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "body_condition",
+            "id": "/Collar_Recovery_3_1/animal_info/body_condition",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Body Condition evaluated?",
+            "name": "body_condition",
+            "position": 26,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "appearance": {
+              "layout": "vertical"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "White color, hard/waxy texture (healthy)",
+                  "position": 0,
+                  "value": "1"
+                },
+                {
+                  "label": "Pink to red color, firm texture",
+                  "position": 1,
+                  "value": "2"
+                },
+                {
+                  "label": "Pink to red color, soft texture",
+                  "position": 2,
+                  "value": "3"
+                },
+                {
+                  "label": "Deep red color, gelatinous texture (poor condition)",
+                  "position": 3,
+                  "value": "4"
+                },
+                {
+                  "label": "Colorless, gelatinous texture (advanced malnutrition)",
+                  "position": 4,
+                  "value": "5"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "marrow_condition",
+            "id": "/Collar_Recovery_3_1/animal_info/marrow_condition",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Marrow Condition",
+            "name": "marrow_condition",
+            "position": 27,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "id": "/Collar_Recovery_3_1/animal_info/marrow_photo",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Marrow Photo",
+            "name": "marrow_photo",
+            "position": 28,
+            "type": "esriQuestionTypeImage",
+            "validation": {
+              "allowFileType": {
+                "exts": [
+                  "bmp",
+                  "gif",
+                  "jp2",
+                  "jpg",
+                  "jpeg",
+                  "jpe",
+                  "png",
+                  "psd",
+                  "sid",
+                  "tif",
+                  "tiff"
+                ],
+                "type": "image"
+              },
+              "inputCount": {
+                "isEnabled": true,
+                "max": 1,
+                "min": 1
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "rump_fat_depth",
+            "id": "/Collar_Recovery_3_1/animal_info/rump_fat_depth",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Rump Fat Depth (mm)",
+            "name": "rump_fat_depth",
+            "position": 29,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "pulling_tooth",
+            "id": "/Collar_Recovery_3_1/animal_info/pulling_tooth",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "Tooth Removal Instructions",
+            "name": "pulling_tooth",
+            "position": 30,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "vertical"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Yes",
+                  "position": 0,
+                  "value": "yes"
+                },
+                {
+                  "label": "No",
+                  "position": 1,
+                  "value": "no"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "tooth_removed",
+            "id": "/Collar_Recovery_3_1/animal_info/tooth_removed",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Tooth Removed?",
+            "name": "tooth_removed",
+            "position": 31,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "calculation": "/Collar_Recovery_3_1/collar_info/prev_collar_id",
+            "defaultValue": "",
+            "fieldName": "sample_number",
+            "id": "/Collar_Recovery_3_1/animal_info/sample_number",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Sample #",
+            "name": "sample_number",
+            "position": 32,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "id": "/Collar_Recovery_3_1/animal_info/animal_photo1",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Animal Photos",
+            "name": "animal_photo1",
+            "position": 33,
+            "type": "esriQuestionTypeImage",
+            "validation": {
+              "allowFileType": {
+                "exts": [
+                  "bmp",
+                  "gif",
+                  "jp2",
+                  "jpg",
+                  "jpeg",
+                  "jpe",
+                  "png",
+                  "psd",
+                  "sid",
+                  "tif",
+                  "tiff"
+                ],
+                "type": "image"
+              },
+              "inputCount": {
+                "isEnabled": true,
+                "max": 1,
+                "min": 1
+              }
+            }
+          },
+          {
+            "id": "/Collar_Recovery_3_1/animal_info/animal_photo2",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "add.",
+            "name": "animal_photo2",
+            "position": 34,
+            "type": "esriQuestionTypeImage",
+            "validation": {
+              "allowFileType": {
+                "exts": [
+                  "bmp",
+                  "gif",
+                  "jp2",
+                  "jpg",
+                  "jpeg",
+                  "jpe",
+                  "png",
+                  "psd",
+                  "sid",
+                  "tif",
+                  "tiff"
+                ],
+                "type": "image"
+              },
+              "inputCount": {
+                "isEnabled": true,
+                "max": 1,
+                "min": 1
+              }
+            }
+          },
+          {
+            "id": "/Collar_Recovery_3_1/animal_info/animal_photo3",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "add.",
+            "name": "animal_photo3",
+            "position": 35,
+            "type": "esriQuestionTypeImage",
+            "validation": {
+              "allowFileType": {
+                "exts": [
+                  "bmp",
+                  "gif",
+                  "jp2",
+                  "jpg",
+                  "jpeg",
+                  "jpe",
+                  "png",
+                  "psd",
+                  "sid",
+                  "tif",
+                  "tiff"
+                ],
+                "type": "image"
+              },
+              "inputCount": {
+                "isEnabled": true,
+                "max": 1,
+                "min": 1
+              }
+            }
+          },
+          {
+            "id": "/Collar_Recovery_3_1/animal_info/animal_photo4",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "add.",
+            "name": "animal_photo4",
+            "position": 36,
+            "type": "esriQuestionTypeImage",
+            "validation": {
+              "allowFileType": {
+                "exts": [
+                  "bmp",
+                  "gif",
+                  "jp2",
+                  "jpg",
+                  "jpeg",
+                  "jpe",
+                  "png",
+                  "psd",
+                  "sid",
+                  "tif",
+                  "tiff"
+                ],
+                "type": "image"
+              },
+              "inputCount": {
+                "isEnabled": true,
+                "max": 1,
+                "min": 1
+              }
+            }
+          },
+          {
+            "id": "/Collar_Recovery_3_1/animal_info/veg_photo",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Vegetation Photo",
+            "name": "veg_photo",
+            "position": 37,
+            "type": "esriQuestionTypeImage",
+            "validation": {
+              "allowFileType": {
+                "exts": [
+                  "bmp",
+                  "gif",
+                  "jp2",
+                  "jpg",
+                  "jpeg",
+                  "jpe",
+                  "png",
+                  "psd",
+                  "sid",
+                  "tif",
+                  "tiff"
+                ],
+                "type": "image"
+              },
+              "inputCount": {
+                "isEnabled": true,
+                "max": 1,
+                "min": 1
+              }
+            }
+          }
+        ],
+        "type": "esriQuestionTypeGroup"
+      },
+      {
+        "calculation": "",
+        "defaultExtent": {
+          "spatialReference": {}
+        },
+        "defaultValue": {
+          "spatialReference": {}
+        },
+        "displayFormats": [
+          "DD"
+        ],
+        "id": "/Collar_Recovery_3_1/capture_location",
+        "inputTools": [
+          "pin",
+          "search",
+          "locate"
+        ],
+        "isDeviceLocationRequired": false,
+        "isReadOnly": false,
+        "isRequired": false,
+        "label": "Location",
+        "maps": [],
+        "name": "capture_location",
+        "position": 38,
+        "type": "esriQuestionTypeGeoPoint"
+      },
+      {
+        "calculation": "pulldata('@geopoint',  /Collar_Recovery_3_1/capture_location , 'y')",
+        "defaultValue": "",
+        "fieldName": "capture_lat",
+        "id": "/Collar_Recovery_3_1/capture_lat",
+        "isReadOnly": false,
+        "isRequired": false,
+        "label": "Latitude",
+        "name": "capture_lat",
+        "position": 39,
+        "type": "esriQuestionTypeNumber",
+        "validation": {
+          "isInteger": false,
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "pulldata('@geopoint',  /Collar_Recovery_3_1/capture_location , 'x')",
+        "defaultValue": "",
+        "fieldName": "capture_long",
+        "id": "/Collar_Recovery_3_1/capture_long",
+        "isReadOnly": false,
+        "isRequired": false,
+        "label": "Longitude",
+        "name": "capture_long",
+        "position": 40,
+        "type": "esriQuestionTypeNumber",
+        "validation": {
+          "isInteger": false,
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "appearance": {
+          "layout": "expanded"
+        },
+        "id": "/Collar_Recovery_3_1/notes_general",
+        "label": "Notes",
+        "name": "notes_general",
+        "position": 41,
+        "questions": [
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "notes",
+            "id": "/Collar_Recovery_3_1/notes_general/notes",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Notes",
+            "name": "notes",
+            "position": 42,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          }
+        ],
+        "type": "esriQuestionTypeGroup"
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "magnet_reminder",
+        "id": "/Collar_Recovery_3_1/magnet_reminder",
+        "isReadOnly": true,
+        "isRequired": false,
+        "label": "0",
+        "name": "magnet_reminder",
+        "position": 43,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      }
+    ],
+    "rules": [],
+    "settings": {
+      "draftInfo": {
+        "isEnabled": false
+      },
+      "instanceName": null,
+      "isVersionLocked": true,
+      "multiSubmissionInfo": {
+        "maxAllowed": 0,
+        "showSubmitAnotherTip": false
+      },
+      "notificationsInfo": {},
+      "openStatusInfo": {
+        "closedStatusContent": "",
+        "schedule": {
+          "end": null,
+          "start": null
+        },
+        "status": "open"
+      },
+      "recordStartEndTime": {
+        "fieldInfos": [],
+        "isEnabled": false
+      },
+      "thankYouScreenContent": ""
+    },
+    "subHeader": {
+      "content": "",
+      "isVisible": true
+    },
+    "submit": {
+      "buttonText": ""
+    },
+    "themes": [
+      {
+        "form": {
+          "backgroundColor": "#ffffff",
+          "backgroundOpacity": 1,
+          "inputBackgroundColor": "#ffffff",
+          "inputTextColor": "#505050",
+          "primaryColor": "#31872E",
+          "primaryTextColor": "#ffffff",
+          "textColor": "#505050"
+        },
+        "header": {
+          "backgroundColor": "#31872E",
+          "textColor": "#ffffff"
+        },
+        "id": null,
+        "isEnabled": true,
+        "name": "theme-color1",
+        "webpage": {
+          "backgroundColor": "#B7DCC7"
+        }
+      }
+    ],
+    "version": "3.9"
+  },
+  "transformerVersion": "1.34.0"
+}

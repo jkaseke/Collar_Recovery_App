@@ -1,0 +1,1005 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:esri="http://esri.com/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Collar Recovery 3.1</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-no_collar-0">
+            <value>Collar band worn or damaged</value>
+          </text>
+          <text id="static_instance-no_collar-1">
+            <value>Animal slipped collar off</value>
+          </text>
+          <text id="static_instance-no_collar-2">
+            <value>Drop-off mechanism activated</value>
+          </text>
+          <text id="/Collar_Recovery_3_1/animal_info/pulling_tooth:label">
+            <value form="image">jr://images/Tooth_Sample_Instructions.PNG</value>
+            <value>Tooth Removal Instructions</value>
+          </text>
+          <text id="static_instance-species-10">
+            <value>Pronghorn</value>
+          </text>
+          <text id="static_instance-species-7">
+            <value>Moose</value>
+          </text>
+          <text id="static_instance-mort_cause-6">
+            <value>Poaching</value>
+          </text>
+          <text id="static_instance-affiliation-3">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-no_collar-3">
+            <value>Other</value>
+          </text>
+          <text id="/Collar_Recovery_3_1/animal_info/marrow_condition/2:label">
+            <value form="image">jr://images/Firm_PinkRed.PNG</value>
+            <value>Pink to red color, firm texture</value>
+          </text>
+          <text id="static_instance-affiliation-2">
+            <value>USU</value>
+          </text>
+          <text id="static_instance-manufacturer-2">
+            <value>Microwave</value>
+          </text>
+          <text id="static_instance-species-3">
+            <value>California Bighorn</value>
+          </text>
+          <text id="static_instance-affiliation-0">
+            <value>UDWR</value>
+          </text>
+          <text id="/Collar_Recovery_3_1/magnet_reminder:label">
+            <value form="image">jr://images/Attach_Magnet.PNG</value>
+          </text>
+          <text id="static_instance-species-0">
+            <value>Bison</value>
+          </text>
+          <text id="static_instance-species-2">
+            <value>Bobcat</value>
+          </text>
+          <text id="static_instance-mort_cause-7">
+            <value>Unknown</value>
+          </text>
+          <text id="static_instance-species-1">
+            <value>Black Bear</value>
+          </text>
+          <text id="/Collar_Recovery_3_1/animal_info/marrow_condition/5:label">
+            <value form="image">jr://images/Gelatinous_Clear.PNG</value>
+            <value>Colorless, gelatinous texture (advanced malnutrition)</value>
+          </text>
+          <text id="static_instance-mort_subcause-1">
+            <value>Train</value>
+          </text>
+          <text id="static_instance-mort_subcause-0">
+            <value>Fence</value>
+          </text>
+          <text id="static_instance-mort_subcause-3">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-mort_subcause-2">
+            <value>Vehicle</value>
+          </text>
+          <text id="static_instance-mort_subcause-5">
+            <value>Cougar</value>
+          </text>
+          <text id="static_instance-mort_subcause-4">
+            <value>Coyote</value>
+          </text>
+          <text id="static_instance-mort_subcause-7">
+            <value>Bobcat</value>
+          </text>
+          <text id="static_instance-mort_subcause-6">
+            <value>Black Bear</value>
+          </text>
+          <text id="static_instance-mort_subcause-9">
+            <value>Likely Predation</value>
+          </text>
+          <text id="static_instance-mort_subcause-8">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-species-9">
+            <value>Mule Deer</value>
+          </text>
+          <text id="static_instance-species-8">
+            <value>Mountain Goat</value>
+          </text>
+          <text id="static_instance-species-6">
+            <value>Elk</value>
+          </text>
+          <text id="static_instance-no_recovery-0">
+            <value>Inaccessible terrain</value>
+          </text>
+          <text id="static_instance-no_recovery-1">
+            <value>Collar quit transmitting</value>
+          </text>
+          <text id="static_instance-no_recovery-2">
+            <value>Animal likely harvested but collar was not returned</value>
+          </text>
+          <text id="static_instance-no_recovery-3">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-species-5">
+            <value>Desert Bighorn</value>
+          </text>
+          <text id="static_instance-manufacturer-1">
+            <value>Lotek</value>
+          </text>
+          <text id="static_instance-manufacturer-0">
+            <value>ATS</value>
+          </text>
+          <text id="static_instance-species-11">
+            <value>Rocky Mountain Bighorn</value>
+          </text>
+          <text id="static_instance-species-4">
+            <value>Cougar</value>
+          </text>
+          <text id="static_instance-type-0">
+            <value>Mortality</value>
+          </text>
+          <text id="static_instance-type-1">
+            <value>Collar Only</value>
+          </text>
+          <text id="static_instance-affiliation-1">
+            <value>BYU</value>
+          </text>
+          <text id="/Collar_Recovery_3_1/animal_info/marrow_condition/4:label">
+            <value form="image">jr://images/Gelatinous_DarkRed.PNG</value>
+            <value>Deep red color, gelatinous texture (poor condition)</value>
+          </text>
+          <text id="static_instance-mort_subcause-11">
+            <value>Unknown</value>
+          </text>
+          <text id="static_instance-mort_subcause-10">
+            <value>Unlikely Predation</value>
+          </text>
+          <text id="static_instance-rating-1">
+            <value>2 Stars</value>
+          </text>
+          <text id="static_instance-rating-0">
+            <value>1 Star</value>
+          </text>
+          <text id="static_instance-rating-3">
+            <value>4 Stars</value>
+          </text>
+          <text id="static_instance-rating-2">
+            <value>3 Stars</value>
+          </text>
+          <text id="static_instance-mort_cause-8">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-rating-4">
+            <value>5 Stars</value>
+          </text>
+          <text id="/Collar_Recovery_3_1/animal_info/marrow_condition/3:label">
+            <value form="image">jr://images/Soft_PinkRed.PNG</value>
+            <value>Pink to red color, soft texture</value>
+          </text>
+          <text id="static_instance-mort_cause-5">
+            <value>Removal</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-mort_cause-0">
+            <value>Accident</value>
+          </text>
+          <text id="static_instance-mort_cause-1">
+            <value>Predation</value>
+          </text>
+          <text id="static_instance-mort_cause-2">
+            <value>Malnutrition</value>
+          </text>
+          <text id="static_instance-mort_cause-3">
+            <value>Disease</value>
+          </text>
+          <text id="static_instance-mort_cause-4">
+            <value>Hunting</value>
+          </text>
+          <text id="/Collar_Recovery_3_1/animal_info/marrow_condition/1:label">
+            <value form="image">jr://images/Hard_White.PNG</value>
+            <value>White color, hard/waxy texture (healthy)</value>
+          </text>
+          <text id="static_instance-tooth_pull-0">
+            <value form="image">jr://images/Tooth_Sample_Instructions.PNG</value>
+            <value>Tooth Removal Instructions</value>
+          </text>
+          <text id="static_instance-species-12">
+            <value>Turkey</value>
+          </text>
+          <text id="static_instance-marrow_condition-4">
+            <value form="image">jr://images/Gelatinous_Clear.PNG</value>
+            <value>Colorless, gelatinous texture (advanced malnutrition)</value>
+          </text>
+          <text id="static_instance-marrow_condition-2">
+            <value form="image">jr://images/Soft_PinkRed.PNG</value>
+            <value>Pink to red color, soft texture</value>
+          </text>
+          <text id="static_instance-marrow_condition-3">
+            <value form="image">jr://images/Gelatinous_DarkRed.PNG</value>
+            <value>Deep red color, gelatinous texture (poor condition)</value>
+          </text>
+          <text id="static_instance-marrow_condition-0">
+            <value form="image">jr://images/Hard_White.PNG</value>
+            <value>White color, hard/waxy texture (healthy)</value>
+          </text>
+          <text id="static_instance-marrow_condition-1">
+            <value form="image">jr://images/Firm_PinkRed.PNG</value>
+            <value>Pink to red color, firm texture</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <Collar_Recovery_3_1 id="Collar_Recovery_3_1">
+          <collector_firstname/>
+          <collector_lastname/>
+          <collector_email/>
+          <date>now()</date>
+          <affiliation_org/>
+          <affiliation_other/>
+          <collar_recovered/>
+          <species_type/>
+          <not_recovered/>
+          <why_notrecovered/>
+          <animal_death/>
+          <collar_fall/>
+          <why_nocollar/>
+          <collar_info>
+            <barcode_prev/>
+            <prev_manufacturer/>
+            <prev_collar_id/>
+            <prev_freq/>
+            <collar_photo/>
+          </collar_info>
+          <animal_info>
+            <mort_date_estimated/>
+            <carcass_intact/>
+            <mortality_cause/>
+            <cause_other/>
+            <mortality_subcause/>
+            <mortality_other/>
+            <body_condition/>
+            <marrow_condition/>
+            <marrow_photo/>
+            <rump_fat_depth/>
+            <pulling_tooth/>
+            <tooth_removed/>
+            <sample_number/>
+            <animal_photo1/>
+            <animal_photo2/>
+            <animal_photo3/>
+            <animal_photo4/>
+            <veg_photo/>
+          </animal_info>
+          <capture_location/>
+          <capture_lat/>
+          <capture_long/>
+          <notes_general>
+            <notes/>
+          </notes_general>
+          <magnet_reminder/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </Collar_Recovery_3_1>
+      </instance>
+      <instance id="@geopoint" src="jr://file-csv/@geopoint.csv">
+        <root>
+          <item>
+            <name>_</name>
+            <label>_</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="rating">
+        <root>
+          <item>
+            <itextId>static_instance-rating-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-rating-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-rating-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-rating-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-rating-4</itextId>
+            <name>5</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="no_collar">
+        <root>
+          <item>
+            <itextId>static_instance-no_collar-0</itextId>
+            <name>worn_damaged</name>
+          </item>
+          <item>
+            <itextId>static_instance-no_collar-1</itextId>
+            <name>slipped_off</name>
+          </item>
+          <item>
+            <itextId>static_instance-no_collar-2</itextId>
+            <name>dropped_off</name>
+          </item>
+          <item>
+            <itextId>static_instance-no_collar-3</itextId>
+            <name>other_none</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="no_recovery">
+        <root>
+          <item>
+            <itextId>static_instance-no_recovery-0</itextId>
+            <name>terrain</name>
+          </item>
+          <item>
+            <itextId>static_instance-no_recovery-1</itextId>
+            <name>no_signal</name>
+          </item>
+          <item>
+            <itextId>static_instance-no_recovery-2</itextId>
+            <name>hunted</name>
+          </item>
+          <item>
+            <itextId>static_instance-no_recovery-3</itextId>
+            <name>other_recover</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="mort_subcause">
+        <root>
+          <item>
+            <itextId>static_instance-mort_subcause-0</itextId>
+            <name>Fence</name>
+            <cause_filter>Accident</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-1</itextId>
+            <name>Train</name>
+            <cause_filter>Accident</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-2</itextId>
+            <name>Vehicle</name>
+            <cause_filter>Accident</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-3</itextId>
+            <name>accident_other</name>
+            <cause_filter>Accident</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-4</itextId>
+            <name>Coyote</name>
+            <cause_filter>Predation</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-5</itextId>
+            <name>Cougar</name>
+            <cause_filter>Predation</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-6</itextId>
+            <name>Black Bear</name>
+            <cause_filter>Predation</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-7</itextId>
+            <name>Bobcat</name>
+            <cause_filter>Predation</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-8</itextId>
+            <name>predation_other</name>
+            <cause_filter>Predation</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-9</itextId>
+            <name>likely</name>
+            <cause_filter>Unknown</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-10</itextId>
+            <name>unlikely</name>
+            <cause_filter>Unknown</cause_filter>
+          </item>
+          <item>
+            <itextId>static_instance-mort_subcause-11</itextId>
+            <name>unknown_other</name>
+            <cause_filter>Unknown</cause_filter>
+          </item>
+        </root>
+      </instance>
+      <instance id="type">
+        <root>
+          <item>
+            <itextId>static_instance-type-0</itextId>
+            <name>Mortality</name>
+          </item>
+          <item>
+            <itextId>static_instance-type-1</itextId>
+            <name>Collar Only</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="affiliation">
+        <root>
+          <item>
+            <itextId>static_instance-affiliation-0</itextId>
+            <name>UDWR</name>
+          </item>
+          <item>
+            <itextId>static_instance-affiliation-1</itextId>
+            <name>BYU</name>
+          </item>
+          <item>
+            <itextId>static_instance-affiliation-2</itextId>
+            <name>USU</name>
+          </item>
+          <item>
+            <itextId>static_instance-affiliation-3</itextId>
+            <name>Affiliation_Other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="marrow_condition">
+        <root>
+          <item>
+            <itextId>static_instance-marrow_condition-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-marrow_condition-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-marrow_condition-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-marrow_condition-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-marrow_condition-4</itextId>
+            <name>5</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="mort_cause">
+        <root>
+          <item>
+            <itextId>static_instance-mort_cause-0</itextId>
+            <name>Accident</name>
+          </item>
+          <item>
+            <itextId>static_instance-mort_cause-1</itextId>
+            <name>Predation</name>
+          </item>
+          <item>
+            <itextId>static_instance-mort_cause-2</itextId>
+            <name>Malnutrition</name>
+          </item>
+          <item>
+            <itextId>static_instance-mort_cause-3</itextId>
+            <name>Disease</name>
+          </item>
+          <item>
+            <itextId>static_instance-mort_cause-4</itextId>
+            <name>Hunting</name>
+          </item>
+          <item>
+            <itextId>static_instance-mort_cause-5</itextId>
+            <name>Removal</name>
+          </item>
+          <item>
+            <itextId>static_instance-mort_cause-6</itextId>
+            <name>Poaching</name>
+          </item>
+          <item>
+            <itextId>static_instance-mort_cause-7</itextId>
+            <name>Unknown</name>
+          </item>
+          <item>
+            <itextId>static_instance-mort_cause-8</itextId>
+            <name>cause_other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="species">
+        <root>
+          <item>
+            <itextId>static_instance-species-0</itextId>
+            <name>Bison</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-1</itextId>
+            <name>Black_Bear</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-2</itextId>
+            <name>Bobcat</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-3</itextId>
+            <name>California_Bighorn</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-4</itextId>
+            <name>Cougar</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-5</itextId>
+            <name>Desert_Bighorn</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-6</itextId>
+            <name>Elk</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-7</itextId>
+            <name>Moose</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-8</itextId>
+            <name>Mountain_Goat</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-9</itextId>
+            <name>Mule_Deer</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-10</itextId>
+            <name>Pronghorn</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-11</itextId>
+            <name>Rocky_Mountain_Bighorn</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-12</itextId>
+            <name>Turkey</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="tooth_pull">
+        <root>
+          <item>
+            <itextId>static_instance-tooth_pull-0</itextId>
+            <name>tooth_pulling</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="manufacturer">
+        <root>
+          <item>
+            <itextId>static_instance-manufacturer-0</itextId>
+            <name>ATS</name>
+          </item>
+          <item>
+            <itextId>static_instance-manufacturer-1</itextId>
+            <name>Lotek</name>
+          </item>
+          <item>
+            <itextId>static_instance-manufacturer-2</itextId>
+            <name>Microwave</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/Collar_Recovery_3_1/collector_firstname" required="true()" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/collector_lastname" required="true()" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/collector_email" required="true()" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/date" type="dateTime"/>
+      <bind nodeset="/Collar_Recovery_3_1/affiliation_org" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/affiliation_other" relevant=" /Collar_Recovery_3_1/affiliation_org  = 'Affiliation_Other'" required="true()" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/collar_recovered" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/species_type" relevant=" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/collar_recovered  = 'no'" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/not_recovered" relevant=" /Collar_Recovery_3_1/collar_recovered  = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/why_notrecovered" relevant=" /Collar_Recovery_3_1/not_recovered  = 'other_recover'" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_death" relevant=" /Collar_Recovery_3_1/collar_recovered  = 'yes'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/collar_fall" relevant=" /Collar_Recovery_3_1/animal_death  = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/why_nocollar" relevant=" /Collar_Recovery_3_1/collar_fall  = 'other_none'" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/collar_info" relevant=" /Collar_Recovery_3_1/not_recovered  = 'terrain' or  /Collar_Recovery_3_1/not_recovered  = 'no_signal' or  /Collar_Recovery_3_1/not_recovered  = 'hunted' or  /Collar_Recovery_3_1/not_recovered  = 'other_recover' or  /Collar_Recovery_3_1/animal_death  = 'yes' or  /Collar_Recovery_3_1/collar_fall  = 'worn_damaged' or  /Collar_Recovery_3_1/collar_fall  = 'slipped_off' or  /Collar_Recovery_3_1/collar_fall  = 'dropped_off' or  /Collar_Recovery_3_1/collar_fall  = 'other_none'"/>
+      <bind esri:fieldType="null" nodeset="/Collar_Recovery_3_1/collar_info/barcode_prev" readonly="true()" relevant=" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no'" type="barcode"/>
+      <bind calculate="if(substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,0,3)=&quot;ATS&quot;,&quot;ATS&quot;,&quot;&quot;)" nodeset="/Collar_Recovery_3_1/collar_info/prev_manufacturer" relevant=" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no' or  /Collar_Recovery_3_1/collar_recovered  = 'no'" required="true()" type="select1"/>
+      <bind calculate="substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,12,18)" esri:fieldLength="6" nodeset="/Collar_Recovery_3_1/collar_info/prev_collar_id" relevant=" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no' or  /Collar_Recovery_3_1/collar_recovered  = 'no'" required="true()" type="string"/>
+      <bind calculate="substr( /Collar_Recovery_3_1/collar_info/barcode_prev ,24,31)" esri:fieldLength="7" nodeset="/Collar_Recovery_3_1/collar_info/prev_freq" relevant=" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no' or  /Collar_Recovery_3_1/collar_recovered  = 'no'" required="true()" type="decimal"/>
+      <bind nodeset="/Collar_Recovery_3_1/collar_info/collar_photo" relevant=" /Collar_Recovery_3_1/collar_recovered  = 'yes' or  /Collar_Recovery_3_1/animal_death  = 'no'" type="binary"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info" relevant=" /Collar_Recovery_3_1/animal_death  = 'yes'"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/mort_date_estimated" required="true()" type="date"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/carcass_intact" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/mortality_cause" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/cause_other" relevant=" /Collar_Recovery_3_1/animal_info/mortality_cause  = 'cause_other'" required="true()" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/mortality_subcause" relevant=" /Collar_Recovery_3_1/animal_info/mortality_cause  = 'Accident' or  /Collar_Recovery_3_1/animal_info/mortality_cause  = 'Predation' or  /Collar_Recovery_3_1/animal_info/mortality_cause  = 'Unknown'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/mortality_other" relevant=" /Collar_Recovery_3_1/animal_info/mortality_subcause  = 'accident_other' or  /Collar_Recovery_3_1/animal_info/mortality_subcause  = 'predation_other' or  /Collar_Recovery_3_1/animal_info/mortality_subcause  = 'unknown_other'" required="true()" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/body_condition" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/marrow_condition" relevant=" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'" type="select1"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/marrow_photo" relevant=" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'" required="true()" type="binary"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/rump_fat_depth" relevant=" /Collar_Recovery_3_1/animal_info/body_condition  = 'yes'" type="decimal"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/pulling_tooth" readonly="true()" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/tooth_removed" type="select1"/>
+      <bind calculate=" /Collar_Recovery_3_1/collar_info/prev_collar_id " nodeset="/Collar_Recovery_3_1/animal_info/sample_number" relevant=" /Collar_Recovery_3_1/animal_info/tooth_removed  = 'yes'" required="true()" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/animal_photo1" type="binary"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/animal_photo2" type="binary"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/animal_photo3" type="binary"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/animal_photo4" type="binary"/>
+      <bind nodeset="/Collar_Recovery_3_1/animal_info/veg_photo" type="binary"/>
+      <bind nodeset="/Collar_Recovery_3_1/capture_location" type="geopoint"/>
+      <bind calculate="pulldata('@geopoint',  /Collar_Recovery_3_1/capture_location , 'y')" nodeset="/Collar_Recovery_3_1/capture_lat" type="decimal"/>
+      <bind calculate="pulldata('@geopoint',  /Collar_Recovery_3_1/capture_location , 'x')" nodeset="/Collar_Recovery_3_1/capture_long" type="decimal"/>
+      <bind nodeset="/Collar_Recovery_3_1/notes_general/notes" type="string"/>
+      <bind nodeset="/Collar_Recovery_3_1/magnet_reminder" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/Collar_Recovery_3_1/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/Collar_Recovery_3_1/collector_firstname">
+      <label>First Name</label>
+    </input>
+    <input ref="/Collar_Recovery_3_1/collector_lastname">
+      <label>Last Name</label>
+    </input>
+    <input ref="/Collar_Recovery_3_1/collector_email">
+      <label>Email Address</label>
+    </input>
+    <input ref="/Collar_Recovery_3_1/date">
+      <label>Data Collection Date/Time</label>
+    </input>
+    <select1 ref="/Collar_Recovery_3_1/affiliation_org">
+      <label>Affiliation</label>
+      <item>
+        <label>UDWR</label>
+        <value>UDWR</value>
+      </item>
+      <item>
+        <label>BYU</label>
+        <value>BYU</value>
+      </item>
+      <item>
+        <label>USU</label>
+        <value>USU</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>Affiliation_Other</value>
+      </item>
+    </select1>
+    <input ref="/Collar_Recovery_3_1/affiliation_other">
+      <label>Other</label>
+    </input>
+    <select1 ref="/Collar_Recovery_3_1/collar_recovered">
+      <label>Was the collar recovered?</label>
+      <item>
+        <label>Yes</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 appearance="minimal" ref="/Collar_Recovery_3_1/species_type">
+      <label>Species</label>
+      <item>
+        <label>Bison</label>
+        <value>Bison</value>
+      </item>
+      <item>
+        <label>Black Bear</label>
+        <value>Black_Bear</value>
+      </item>
+      <item>
+        <label>Bobcat</label>
+        <value>Bobcat</value>
+      </item>
+      <item>
+        <label>California Bighorn</label>
+        <value>California_Bighorn</value>
+      </item>
+      <item>
+        <label>Cougar</label>
+        <value>Cougar</value>
+      </item>
+      <item>
+        <label>Desert Bighorn</label>
+        <value>Desert_Bighorn</value>
+      </item>
+      <item>
+        <label>Elk</label>
+        <value>Elk</value>
+      </item>
+      <item>
+        <label>Moose</label>
+        <value>Moose</value>
+      </item>
+      <item>
+        <label>Mountain Goat</label>
+        <value>Mountain_Goat</value>
+      </item>
+      <item>
+        <label>Mule Deer</label>
+        <value>Mule_Deer</value>
+      </item>
+      <item>
+        <label>Pronghorn</label>
+        <value>Pronghorn</value>
+      </item>
+      <item>
+        <label>Rocky Mountain Bighorn</label>
+        <value>Rocky_Mountain_Bighorn</value>
+      </item>
+      <item>
+        <label>Turkey</label>
+        <value>Turkey</value>
+      </item>
+    </select1>
+    <select1 ref="/Collar_Recovery_3_1/not_recovered">
+      <label>Why was the collar not recovered?</label>
+      <item>
+        <label>Inaccessible terrain</label>
+        <value>terrain</value>
+      </item>
+      <item>
+        <label>Collar quit transmitting</label>
+        <value>no_signal</value>
+      </item>
+      <item>
+        <label>Animal likely harvested but collar was not returned</label>
+        <value>hunted</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>other_recover</value>
+      </item>
+    </select1>
+    <input ref="/Collar_Recovery_3_1/why_notrecovered">
+      <label>Other</label>
+    </input>
+    <select1 ref="/Collar_Recovery_3_1/animal_death">
+      <label>Did the animal die?</label>
+      <item>
+        <label>Yes</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/Collar_Recovery_3_1/collar_fall">
+      <label>Why did the collar fall off?</label>
+      <item>
+        <label>Collar band worn or damaged</label>
+        <value>worn_damaged</value>
+      </item>
+      <item>
+        <label>Animal slipped collar off</label>
+        <value>slipped_off</value>
+      </item>
+      <item>
+        <label>Drop-off mechanism activated</label>
+        <value>dropped_off</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>other_none</value>
+      </item>
+    </select1>
+    <input ref="/Collar_Recovery_3_1/why_nocollar">
+      <label>Other</label>
+    </input>
+    <group ref="/Collar_Recovery_3_1/collar_info">
+      <label>Collar Information</label>
+      <input appearance="minimal" ref="/Collar_Recovery_3_1/collar_info/barcode_prev">
+        <label>QR Code</label>
+      </input>
+      <select1 ref="/Collar_Recovery_3_1/collar_info/prev_manufacturer">
+        <label>Manufacturer</label>
+        <item>
+          <label>ATS</label>
+          <value>ATS</value>
+        </item>
+        <item>
+          <label>Lotek</label>
+          <value>Lotek</value>
+        </item>
+        <item>
+          <label>Microwave</label>
+          <value>Microwave</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Recovery_3_1/collar_info/prev_collar_id">
+        <label>Serial Number (6 digits, e.g., 041911)</label>
+      </input>
+      <input ref="/Collar_Recovery_3_1/collar_info/prev_freq">
+        <label>Frequency (6 digits, e.g., 149.200)</label>
+      </input>
+      <upload mediatype="image/*" ref="/Collar_Recovery_3_1/collar_info/collar_photo">
+        <label>Label Photo</label>
+      </upload>
+    </group>
+    <group ref="/Collar_Recovery_3_1/animal_info">
+      <label>Animal Mortality Information</label>
+      <input ref="/Collar_Recovery_3_1/animal_info/mort_date_estimated">
+        <label>Estimated Mortality Date</label>
+      </input>
+      <select1 ref="/Collar_Recovery_3_1/animal_info/carcass_intact">
+        <label>Carcass Intact?</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="autocomplete" ref="/Collar_Recovery_3_1/animal_info/mortality_cause">
+        <label>Mortality Cause</label>
+        <item>
+          <label>Accident</label>
+          <value>Accident</value>
+        </item>
+        <item>
+          <label>Predation</label>
+          <value>Predation</value>
+        </item>
+        <item>
+          <label>Malnutrition</label>
+          <value>Malnutrition</value>
+        </item>
+        <item>
+          <label>Disease</label>
+          <value>Disease</value>
+        </item>
+        <item>
+          <label>Hunting</label>
+          <value>Hunting</value>
+        </item>
+        <item>
+          <label>Removal</label>
+          <value>Removal</value>
+        </item>
+        <item>
+          <label>Poaching</label>
+          <value>Poaching</value>
+        </item>
+        <item>
+          <label>Unknown</label>
+          <value>Unknown</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>cause_other</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Recovery_3_1/animal_info/cause_other">
+        <label>Other</label>
+      </input>
+      <select1 appearance="autocomplete" ref="/Collar_Recovery_3_1/animal_info/mortality_subcause">
+        <label>Mortality Subcause</label>
+        <itemset nodeset="instance('mort_subcause')/root/item[cause_filter =  /Collar_Recovery_3_1/animal_info/mortality_cause ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <input ref="/Collar_Recovery_3_1/animal_info/mortality_other">
+        <label>Other</label>
+      </input>
+      <select1 appearance="horizontal-compact" ref="/Collar_Recovery_3_1/animal_info/body_condition">
+        <label>Body Condition evaluated?</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/Collar_Recovery_3_1/animal_info/marrow_condition">
+        <label>Marrow Condition</label>
+        <item>
+          <label ref="jr:itext('/Collar_Recovery_3_1/animal_info/marrow_condition/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Collar_Recovery_3_1/animal_info/marrow_condition/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Collar_Recovery_3_1/animal_info/marrow_condition/3:label')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Collar_Recovery_3_1/animal_info/marrow_condition/4:label')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Collar_Recovery_3_1/animal_info/marrow_condition/5:label')"/>
+          <value>5</value>
+        </item>
+      </select1>
+      <upload mediatype="image/*" ref="/Collar_Recovery_3_1/animal_info/marrow_photo">
+        <label>Marrow Photo</label>
+      </upload>
+      <input ref="/Collar_Recovery_3_1/animal_info/rump_fat_depth">
+        <label>Rump Fat Depth (mm)</label>
+      </input>
+      <input ref="/Collar_Recovery_3_1/animal_info/pulling_tooth">
+        <label ref="jr:itext('/Collar_Recovery_3_1/animal_info/pulling_tooth:label')"/>
+      </input>
+      <select1 ref="/Collar_Recovery_3_1/animal_info/tooth_removed">
+        <label>Tooth Removed?</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Recovery_3_1/animal_info/sample_number">
+        <label>Sample #</label>
+      </input>
+      <upload mediatype="image/*" ref="/Collar_Recovery_3_1/animal_info/animal_photo1">
+        <label>Animal Photos</label>
+      </upload>
+      <upload mediatype="image/*" ref="/Collar_Recovery_3_1/animal_info/animal_photo2">
+        <label>add.</label>
+      </upload>
+      <upload mediatype="image/*" ref="/Collar_Recovery_3_1/animal_info/animal_photo3">
+        <label>add.</label>
+      </upload>
+      <upload mediatype="image/*" ref="/Collar_Recovery_3_1/animal_info/animal_photo4">
+        <label>add.</label>
+      </upload>
+      <upload mediatype="image/*" ref="/Collar_Recovery_3_1/animal_info/veg_photo">
+        <label>Vegetation Photo</label>
+      </upload>
+    </group>
+    <input ref="/Collar_Recovery_3_1/capture_location">
+      <label>Location</label>
+    </input>
+    <input ref="/Collar_Recovery_3_1/capture_lat">
+      <label>Latitude</label>
+    </input>
+    <input ref="/Collar_Recovery_3_1/capture_long">
+      <label>Longitude</label>
+    </input>
+    <group ref="/Collar_Recovery_3_1/notes_general">
+      <label>Notes</label>
+      <input ref="/Collar_Recovery_3_1/notes_general/notes">
+        <label>Notes</label>
+      </input>
+    </group>
+    <input ref="/Collar_Recovery_3_1/magnet_reminder">
+      <label ref="jr:itext('/Collar_Recovery_3_1/magnet_reminder:label')"/>
+    </input>
+  </h:body>
+</h:html>
