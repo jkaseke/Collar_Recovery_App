@@ -38,7 +38,7 @@
                 "includeUserInfo": true,
                 "modified": 1586961783688,
                 "name": "Collar Recovery Survey Submission",
-                "url": "https://hooks.zapier.com/hooks/catch/4990674/o6nor8a/"
+                ;"url": "webhookaddress"
             },
             {
                 "active": true,
@@ -54,7 +54,7 @@
                 "includeUserInfo": true,
                 "modified": 1585689863754,
                 "name": "integromat-348249",
-                "url": "https://hook.integromat.com/q8ta7hjkjfbdy1ew66upeg89adl4zxhq"
+                ;"url": "webhookaddress"
             }
         ]
     },
